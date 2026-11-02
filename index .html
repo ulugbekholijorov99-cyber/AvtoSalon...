@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvtoSalon</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ichki CSS -->
+    <style>
+        h2 {
+            color: #00c896;
+            text-align: center;
+        }
+
+        .description {
+            font-size: 17px;
+            color: #b8c0cc;
+        }
+
+        .car {
+            border-radius: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header" id="bosh-sahifa">
+        <a class="logo" href="#bosh-sahifa">AVTO<span>SALON</span></a>
+        <nav>
+            <a href="#bosh-sahifa">Bosh sahifa</a>
+            <a href="#avtomobillar">Avtomobillar</a>
+            <a href="#xizmatlar">Xizmatlar</a>
+            <a href="#narxlar">Narxlar</a>
+            <a href="#buyurtma">Buyurtma</a>
+            <a href="#savollar">Savollar</a>
+            <a href="#hududlar">Hududlar</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <p class="muhim">AVTOMOBIL TANLASHNING YANGI USULI</p>
+                <h1>O'zingizga mos avtomobilni biz bilan tanlang!</h1>
+                <p>Avtomobillarni ko'ring, narxlarni solishtiring va test-drayvga yoziling.</p>
+                <a class="button" href="#avtomobillar">Avtomobillarni ko'rish</a>
+                <a class="button secondary" href="#buyurtma">Buyurtma berish</a>
+            </div>
+            <div class="hero-image">
+                <img src="rasm/hero.jpg" alt="AvtoSalon avtomobili">
+            </div>
+        </section>
+
+        <section class="brands">
+            <h2>Bizning brendlarimiz</h2>
+            <ul class="brand-list">
+                <li>BMW</li>
+                <li>Mercedes-Benz</li>
+                <li>BYD</li>
+                <li>Li Auto</li>
+                <li>Toyota</li>
+                <li>Zeekr</li>
+                <li>Hyundai</li>
+            </ul>
+        </section>
+
+        <section class="section" id="avtomobillar">
+            <h2>Avtomobillar</h2>
+            <p class="description">O'zingizga mos modelni tanlang.</p>
+            <div class="cars">
+                <article class="car">
+                    <img src="rasm/bmw-x5.jpg" alt="BMW X5">
+                    <h3>BMW X5 xDrive40i</h3>
+                    <ul>
+                        <li>Krossover</li>
+                        <li>Benzin, 3.0 L</li>
+                    </ul>
+                    <p class="price">1 450 mln so'mdan</p>
+                    <a class="button" href="#buyurtma">Tanlash</a>
+                </article>
+                <article class="car">
+                    <img src="rasm/mercedes-g63.jpg" alt="Mercedes-AMG G 63">
+                    <h3>Mercedes-AMG G 63</h3>
+                    <ul>
+                        <li>Yo'ltanlamas</li>
+                        <li>Benzin, 4.0 L</li>
+                    </ul>
+                    <p class="price">3 500 mln so'mdan</p>
+                    <a class="button" href="#buyurtma">Tanlash</a>
+                </article>
+                <article class="car">
+                    <img src="rasm/byd-song-plus.jpg" alt="BYD Seal AWD">
+                    <h3>BYD Seal AWD</h3>
+                    <ul>
+                        <li>Sedan</li>
+                        <li>Elektro, AWD</li>
+                    </ul>
+                    <p class="price">560 mln so'mdan</p>
+                    <a class="button" href="#buyurtma">Tanlash</a>
+                </article>
+                <article class="car">
+                    <img src="rasm/li-l9.jpg" alt="Li Auto L9">
+                    <h3>Li Auto L9</h3>
+                    <ul>
+                        <li>Krossover</li>
+                        <li>Gibrid, 6 o'rinli</li>
+                    </ul>
+                    <p class="price">950 mln so'mdan</p>
+                    <a class="button" href="#buyurtma">Tanlash</a>
+                </article>
+                <article class="car">
+                    <img src="rasm/toyota-lc300.jpg" alt="Toyota Land Cruiser 300">
+                    <h3>Toyota Land Cruiser 300</h3>
+                    <ul>
+                        <li>Yo'ltanlamas</li>
+                        <li>Benzin, 3.5 L</li>
+                    </ul>
+                    <p class="price">1 900 mln so'mdan</p>
+                    <a class="button" href="#buyurtma">Tanlash</a>
+                </article>
+                <article class="car">
+                    <img src="rasm/zeekr-001.jpg" alt="Zeekr 001">
+                    <h3>Zeekr 001</h3>
+                    <ul>
+                        <li>Liftbek</li>
+                        <li>Elektro, AWD</li>
+                    </ul>
+                    <p class="price">650 mln so'mdan</p>
+                    <a class="button" href="#buyurtma">Tanlash</a>
+                </article>
+                <article class="car">
+                    <img src="rasm/hyundai-santa-fe.jpg" alt="Hyundai Santa Fe">
+                    <h3>Hyundai Santa Fe</h3>
+                    <ul>
+                        <li>Krossover</li>
+                        <li>Benzin, 2.5 L</li>
+                    </ul>
+                    <p class="price">650 mln so'mdan</p>
+                    <a class="button" href="#buyurtma">Tanlash</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="narxlar">
+            <h2>Narxlar</h2>
+            <div class="table-box">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Model</th>
+                            <th>Yoqilg'i</th>
+                            <th>Narxi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>BMW X5</td>
+                            <td>Benzin</td>
+                            <td>1 450 mln</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Mercedes-AMG G 63</td>
+                            <td>Benzin</td>
+                            <td>3 500 mln</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>BYD Seal AWD</td>
+                            <td>Elektro</td>
+                            <td>560 mln</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Li Auto L9</td>
+                            <td>Gibrid</td>
+                            <td>950 mln</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Toyota Land Cruiser 300</td>
+                            <td>Benzin</td>
+                            <td>1 900 mln</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Zeekr 001</td>
+                            <td>Elektro</td>
+                            <td>650 mln</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Hyundai Santa Fe</td>
+                            <td>Benzin</td>
+                            <td>650 mln</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="description">Narxlar namunaviy, o'zgarishi mumkin.</p>
+        </section>
+
+        <section class="section services" id="xizmatlar">
+            <h2>Xizmatlar</h2>
+            <div class="service-list">
+                <article class="service">
+                    <h3>Test-drayv</h3>
+                    <p>Avtomobilni boshqarib ko'ring.</p>
+                </article>
+                <article class="service">
+                    <h3>Kredit</h3>
+                    <p>Kredit bo'yicha maslahat oling.</p>
+                </article>
+                <article class="service">
+                    <h3>Lizing</h3>
+                    <p>Lizing imkoniyatlari bilan tanishing.</p>
+                </article>
+                <article class="service">
+                    <h3>Maslahat</h3>
+                    <p>O'zingizga mos avtomobilni tanlang.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Audio va video</h2>
+            <audio controls>
+                <source src="audio/bmw.mp3" type="audio/mpeg">Audio faylni ochib bo'lmadi.
+            </audio>
+            <video controls poster="rasm/hero.jpg">
+                <source src="video/bmw.mp4" type="video/mp4">Video faylni ochib bo'lmadi.
+            </video>
+        </section>
+
+        <section class="section">
+            <h2>Viloyatlar bo'yicha avtosalonlar</h2>
+            <p>Qo'shimcha ma'lumot uchun PDF katalogni oching.</p>
+            <a class="button" href="hujjatlar/katalog.pdf" target="_blank">PDF katalog</a>
+            <img src="rasm/xarita1.jpg" alt="O'zbekiston xaritasi" usemap="#avto-xarita" width="800px">
+            <map name="avto-xarita">
+                <area shape="poly" coords="445,310,500,300 530,360 480,375 430,365" href="samarqand.html"
+                    alt="Samarqand viloyati"></map>
+        </section>
+
+        <section class="section" id="buyurtma">
+            <h2>Test-drayvga yozilish</h2>
+            <form>
+                <label for="fio">Ism-familiya:</label>
+                <input id="fio" name="fio" type="text" placeholder="Ism va familiyangiz" required>
+                <label for="tel">Telefon:</label>
+                <input id="tel" name="tel" type="tel" placeholder="+998901234567" pattern="\+998[0-9]{9}" required>
+                <label for="model">Avtomobil modeli:</label>
+                <select id="model" name="model" required>
+                    <option value="">Modelni tanlang</option>
+                    <option>BMW X5</option>
+                    <option>Mercedes-AMG G 63</option>
+                    <option>BYD Seal AWD</option>
+                    <option>Li Auto L9</option>
+                    <option>Toyota Land Cruiser 300</option>
+                    <option>Zeekr 001</option>
+                    <option>Hyundai Santa Fe</option>
+                </select>
+                <label for="sana">Qulay sana:</label>
+                <input id="sana" name="sana" type="date">
+                <fieldset>
+                    <legend>To'lov turi</legend>
+                    <label><input type="radio" name="tolov" value="naqd" checked> Naqd</label>
+                    <label><input type="radio" name="tolov" value="kredit"> Kredit</label>
+                    <label><input type="radio" name="tolov" value="lizing"> Lizing</label>
+                </fieldset>
+                <label for="izoh">Izoh:</label>
+                <textarea id="izoh" name="izoh" rows="4"></textarea>
+                <label class="agree"><input type="checkbox" required> Ma'lumotlardan foydalanishga roziman.</label>
+                <button class="button" type="submit">Yuborish</button>
+            </form>
+        </section>
+
+        <section class="section" id="savollar">
+            <h2>Ko'p so'raladigan savollar</h2>
+            <details>
+                <summary>Narxlar aniqmi?</summary>
+                <p>Narxlar namunaviy. Yakuniy narxni salon bilan aniqlashtiring.</p>
+            </details>
+            <details>
+                <summary>Test-drayvga qanday yozilaman?</summary>
+                <p>Buyurtma formasini to'ldiring.</p>
+            </details>
+            <details>
+                <summary>Kredit yoki lizing bormi?</summary>
+                <p>Shartlarni salon mutaxassisi bilan aniqlashtiring.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>AVTO<span>MARKAZ</span></h2>
+        <p>Avtomobil tanlash va xarid qilish markazi.</p>
+        <p>Telefon: <a href="tel:+998901234567">+998 90 123 45 67</a></p>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>© 2026 AvtoMarkaz</p>
+    </footer>
+</body>
+
+</html>
